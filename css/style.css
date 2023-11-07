@@ -32,8 +32,40 @@ width: 100%;
     SITE SECTION
 ********************/
 /* Spotify Top  */
+
+.spotify-top .container{
+    display: flex;
+    height: calc(100vh - 100px);
+    background-color:blue;
+}
+
+/* Sporify Main */
+.spotify-main{
+    height: 100%;
+    background-color: #141922;
+    width: calc(100vw - 50px);
+}
+
+.spotify-main header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* Sidebar  */
+
+.sidebar{
+    height: 100%;
+    width: 50px;
+    background-color: black;
+}
+
 /* Spotify Bottom  */
+
+.spotify-bottom .container{
+    height: 100px;
+    background-color: #282828;
+}
 /* Player  */
 
 
@@ -74,6 +106,10 @@ background-color: black;
 }
 
 @media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
     
 }
 
