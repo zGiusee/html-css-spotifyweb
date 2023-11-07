@@ -42,6 +42,10 @@ img{
    max-width: 100%;
 }
 
+.overflow-y{
+    overflow-y: auto;
+}
+
 /* Flex utilites */
 
 .space-around{
@@ -60,6 +64,12 @@ img{
 
 .margin-top-30{
     margin-top: 30px;
+}
+
+/* Paddings */
+
+.padding-y-15{
+    padding: 15px 0px;
 }
 
 /* Columns */
@@ -148,6 +158,7 @@ img{
     height: 100%;
     width: 50px;
     background-color: black;
+    justify-content: center;
 }
 
 .fa-magnifying-glass,
@@ -158,13 +169,14 @@ img{
 
 /* Sidebar Only icon list */
 
-.sidebar .only-icon-ul{
+.only-icon-ul{
     text-align: center;
     padding: 10px 0px;
     list-style-type: none;
+    
 }
 
-.sidebar .only-icon-ul li{
+.only-icon-ul li{
     padding: 5px 0px;
 }
 
@@ -178,23 +190,37 @@ img{
 
 .icon-and-text-ul{
     list-style-type: none;
+    padding: 10px 0px;
+    margin-left: 20px;
 
 }
 
 .icon-and-text-ul li{
     color: #717171;
     font-weight: bold;
+    padding: 10px 0px;
+    font-size: 13px;
+    
 }
 
 /* Sidebar playlist list */
 
+.playlist-section{
+    margin-left: 20px;
+    padding-top:15px;
+}
+
 .pl-list{
     list-style: none;
+    padding: 10px 0px;
 
 }
 
 .pl-list li{
-    color:#717171
+    color:#717171;
+    padding: 5px 0px;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 
@@ -245,6 +271,7 @@ img{
         height: 100%;
         width: 250px;
         background-color: black;
+        justify-content: start;
     }
     
     .only-icon-ul{
