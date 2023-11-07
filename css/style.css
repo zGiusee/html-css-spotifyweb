@@ -60,6 +60,21 @@ width: 100%;
     background-color: black;
 }
 
+.sidebar ul{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.sidebar ul li{
+    padding: 5px 0px;
+}
+
+.fa-magnifying-glass,
+.fa-house,
+.fa-bars{
+    color: #717171;
+}
+
 /* Spotify Bottom  */
 
 .spotify-bottom .container{
