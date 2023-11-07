@@ -194,11 +194,20 @@ Spotify Top
 }
 
 .navigation-list ul li{
-    color: white;
     padding: 5px 15px;
     font-size: 12px;
     
 }
+
+.navigation-list ul li a{
+    color: white;
+}
+
+.navigation-list ul li:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 
 
 /* Sidebar Logo */
