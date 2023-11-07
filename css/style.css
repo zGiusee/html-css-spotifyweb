@@ -319,6 +319,11 @@ End Of Spotify Bottom
 }
 
 @media screen and (min-width: 790px){
+
+    .spotify-main{
+        overflow-x: hidden;
+    }
+
     .spotify-main 
     .recently-played-section .row .col-50{
         width: calc(100% / 3 - 40px);
@@ -329,12 +334,20 @@ End Of Spotify Bottom
 
 @media screen and (min-width: 992px){
 
+    .spotify-main{
+        overflow-x: hidden;
+    }
+
     .spotify-main 
     .recently-played-section .row .col-50{
         width: calc(100% / 4 - 40px);
         
     }
     
+    .spotify-main
+    .created-for-you-section .row{
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 1200px){
