@@ -38,6 +38,10 @@ h2{
     flex-wrap: wrap;
 }
 
+img{
+   max-width: 100%;
+}
+
 /* Flex utilites */
 
 .space-around{
@@ -107,6 +111,7 @@ h2{
 /* Spotify navigation list */
 
 .navigation-list{
+    display: block;
     display: flex;
     justify-content: center;
     margin: 0px 20px;
@@ -129,22 +134,20 @@ h2{
 }
 
 
+/* Sidebar Logo */
+
+.spotify-logo{
+    filter: brightness(0) invert(1);
+    height: 100px;
+}
 
 /* Sidebar  */
 
 .sidebar{
+    display: flex;
     height: 100%;
     width: 50px;
     background-color: black;
-}
-
-.sidebar ul{
-    text-align: center;
-    padding: 10px 0px;
-}
-
-.sidebar ul li{
-    padding: 5px 0px;
 }
 
 .fa-magnifying-glass,
@@ -152,6 +155,48 @@ h2{
 .fa-bars{
     color: #717171;
 }
+
+/* Sidebar Only icon list */
+
+.sidebar .only-icon-ul{
+    text-align: center;
+    padding: 10px 0px;
+    list-style-type: none;
+}
+
+.sidebar .only-icon-ul li{
+    padding: 5px 0px;
+}
+
+/* Sidebar icon and text list */
+
+.icon-and-text-container{
+    display: none;
+    
+    
+}
+
+.icon-and-text-ul{
+    list-style-type: none;
+
+}
+
+.icon-and-text-ul li{
+    color: #717171;
+    font-weight: bold;
+}
+
+/* Sidebar playlist list */
+
+.pl-list{
+    list-style: none;
+
+}
+
+.pl-list li{
+    color:#717171
+}
+
 
 /* Spotify Bottom  */
 
@@ -195,7 +240,22 @@ h2{
 ********************/
 
 @media screen and (min-width: 576px){
+
+    .sidebar{
+        height: 100%;
+        width: 250px;
+        background-color: black;
+    }
     
+    .only-icon-ul{
+        display: none;
+    }
+
+    .icon-and-text-container{
+        display: block;
+    }
+    
+
 }
 
 @media screen and (min-width: 768px){
