@@ -1,46 +1,70 @@
 /********************
     GENERAL STYLES
- ********************/
+********************/
 
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
 }
 
 *{
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
-
- /* Colors */
-
-
 
 /********************
     UTILITES
- ********************/
+********************/
 
- .container{
-    width: 100%;
- }
+.container{
+width: 100%;
+}
 
- .row{
-    
- }
+.row{
 
- /********************
+}
+
+/********************
     POSITIONING
- ********************/
+********************/
 
- /********************
+/********************
     SITE SECTION
- ********************/
- /* Spotify Top  */
- /* Sidebar  */
- /* Spotify Bottom  */
- /* Player  */
- 
+********************/
+/* Spotify Top  */
+/* Sidebar  */
+/* Spotify Bottom  */
+/* Player  */
 
- /********************
+
+
+/* COLORS AND STYLES*/
+
+.white{
+color: white;
+}
+
+.grey{
+color: #717171;
+}
+
+.light-gray{
+color: #D2D2D2;
+}
+
+.bg-black{
+background-color: black;
+}
+
+.bg-dark-blue{
+    color: #141922;
+}
+
+.bg-dark-grey{
+    color: #282828;
+}
+
+
+/********************
     MEDIA QUERIES
- ********************/
+********************/
