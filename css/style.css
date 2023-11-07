@@ -212,9 +212,9 @@ Spotify Top
 
 /* Sidebar Logo */
 
-.spotify-logo{
-    filter: brightness(0) invert(1);
-    height: 100px;
+.logo-small{
+    width: 20px;
+    height: 20px;
 }
 
 /* Sidebar  */
@@ -230,7 +230,7 @@ Spotify Top
 .fa-magnifying-glass,
 .fa-house,
 .fa-bars{
-    color: #717171;
+    color: #fff;
 }
 
 /* Sidebar Only icon list */
@@ -243,7 +243,7 @@ Spotify Top
 }
 
 .only-icon-ul li{
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 
 /* Sidebar icon and text list */
@@ -262,7 +262,7 @@ Spotify Top
 }
 
 .icon-and-text-ul li{
-    color: #717171;
+    color: #fff;
     font-weight: bold;
     padding: 10px 0px;
     font-size: 13px;
@@ -319,7 +319,7 @@ End Of Spotify Bottom
   color: #717171;
 }
 
-.light-gray{
+.light-grey{
   color: #D2D2D2;
 }
 
@@ -349,6 +349,12 @@ End Of Spotify Bottom
         background-color: black;
         justify-content: start;
     }
+
+   .fa-magnifying-glass,
+   .fa-house,
+   .fa-bars{
+    margin-right: 8px;
+}
     
     .spotify-main-header{
         width: calc(100vw - 250px);
