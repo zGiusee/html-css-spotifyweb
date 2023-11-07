@@ -12,13 +12,34 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+ /* Colors */
+
+
+
 /********************
     UTILITES
+ ********************/
+
+ .container{
+    width: 100%;
+ }
+
+ .row{
+    
+ }
+
+ /********************
+    POSITIONING
  ********************/
 
  /********************
     SITE SECTION
  ********************/
+ /* Spotify Top  */
+ /* Sidebar  */
+ /* Spotify Bottom  */
+ /* Player  */
+ 
 
  /********************
     MEDIA QUERIES
