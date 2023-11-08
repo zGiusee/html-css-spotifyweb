@@ -386,6 +386,8 @@ Spotify Bottom
     height: 100%;
 }
 
+/* LEFT PLAYER SIDE */
+
 .player-song-img-container{
     max-width: 100%;
     margin: 0px 8px;
@@ -413,11 +415,72 @@ Spotify Bottom
 
 }
 
-.player-icon-list{
+/* MIDDLE SIDE PLAYER */
+
+.middle-player-icon-list{
     list-style-type: none;
-    margin-left: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.middle-player-icon-list li{
+    padding: 0px 12px;
     
 }
+
+.middle-player-icon-list .fa-play{
+    padding: 13px 8px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+    
+}
+
+.song-time-text{
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.song-time-bar-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* SONG TIME BAR */
+
+.song-time-bar-container input[type="range"] {
+    width: 65%;
+    background-color: transparent;
+}
+
+.song-time-bar-container input[type="range"]::-moz-range-track {
+    border-radius: 5px;
+    background-color: #717171;
+    height: 5px;
+}
+
+
+.song-time-bar-container input[type="range"]::-moz-range-thumb {
+    height: 0px;
+    width: 0px;
+
+}
+
+.song-time-bar-container input[type="range"]::-moz-range-progress {
+    background-color: #D2D2D2;
+    height: 5px;
+    border-radius: 5px;
+}
+  
+
+#song-time-bar{
+    margin: 0px 10px 10px 10px;
+    
+}
+
+/* LEFT PLAYER SIDE */
 
 /* VOLUME BAR */
 
@@ -434,8 +497,8 @@ Spotify Bottom
 
 
 .volume-bar-container input[type="range"]::-moz-range-thumb {
-    height: 5px;
-    width: 5px;
+    height: 0px;
+    width: 0px;
 
 }
 
@@ -451,17 +514,32 @@ Spotify Bottom
     
 }
 
+/* PLAYER LIST SETTING */
+
+.left-player-icon-list,
+.right-player-icon-list{
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+
+
 /* ICONS */
 
-.fa-heart,
-.fa-folder,
-.fa-bars,
-.fa-tv,
-.fa-volume-up{
+.middle-player-icon-list i{
+    color: white;
+}
+
+.right-player-icon-list i{
+    color: white;
+}
+
+.left-player-icon-list i{
     color: white;
 }
 
 .fa-volume-up{
+    color: white;
     margin-left: 10px;
     vertical-align: middle;
 }
