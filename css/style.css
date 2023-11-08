@@ -419,9 +419,51 @@ Spotify Bottom
     
 }
 
+/* VOLUME BAR */
+
+.volume-bar-container input[type="range"] {
+    width: 100%;
+    background-color: transparent;
+}
+
+.volume-bar-container input[type="range"]::-moz-range-track {
+    border-radius: 5px;
+    background-color: #717171;
+    height: 5px;
+}
+
+
+.volume-bar-container input[type="range"]::-moz-range-thumb {
+    height: 5px;
+    width: 5px;
+
+}
+
+.volume-bar-container input[type="range"]::-moz-range-progress {
+    background-color: #D2D2D2;
+    height: 5px;
+    border-radius: 5px;
+}
+  
+
+#volume-bar{
+    margin-right: 10px;
+    
+}
+
+/* ICONS */
+
 .fa-heart,
-.fa-folder{
+.fa-folder,
+.fa-bars,
+.fa-tv,
+.fa-volume-up{
     color: white;
+}
+
+.fa-volume-up{
+    margin-left: 10px;
+    vertical-align: middle;
 }
 
 /* 
