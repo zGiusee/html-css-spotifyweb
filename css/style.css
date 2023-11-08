@@ -47,6 +47,9 @@ a{
     margin-left: 30px;
 }
 
+.player-row{
+    display: flex;
+}
 
 
 img{
@@ -101,6 +104,14 @@ img{
     width: calc(100% / 2 - 40px);
 }
 
+.col-50-player{
+    width: calc(50%) 
+}
+
+.col-25{
+    width: calc(25%);
+}
+
 
 /********************
     POSITIONING
@@ -137,6 +148,7 @@ Spotify Top
 .spotify-main-header{
     position: fixed;
     width: calc(100vw - 50px);
+    z-index: 1;
     height: 75px;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -174,6 +186,57 @@ Spotify Top
     color: #717171;
     font-size: 13px;
 }
+
+/* Spotify Main Img hover settings*/
+
+.music-img-container{
+    position: relative;
+    display: flex;
+}
+
+.recently-played-section
+.col-50:hover h3{
+    text-decoration: underline;
+    color: white;
+}
+
+.created-for-you-section
+.col-50:hover h3{
+    text-decoration: underline;
+    color: white;
+}
+
+.popular-artist-section
+.col-50:hover h3{
+    text-decoration: underline;
+    color: white;
+}
+
+/* OVERLAY */
+
+.music-img-container:hover .player-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    display: none;
+}
+
+.player-overlay .fa-play{
+    color: white;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 5px solid white;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
 
 /* Spotify navigation list */
 
@@ -221,16 +284,16 @@ Spotify Top
 
 .sidebar{
     display: flex;
-    height: 100%;
+    height: calc(100vh - 100px);
     width: 50px;
     background-color: black;
     justify-content: center;
 }
 
-.fa-magnifying-glass,
-.fa-house,
-.fa-bars{
-    color: #fff;
+.icon{
+   vertical-align: middle;
+   height: 25px;
+   max-width: 100%;
 }
 
 /* Sidebar Only icon list */
@@ -266,7 +329,6 @@ Spotify Top
     font-weight: bold;
     padding: 10px 0px;
     font-size: 13px;
-    
 }
 
 /* Sidebar playlist list */
@@ -341,6 +403,19 @@ End Of Spotify Bottom
     MEDIA QUERIES
 ********************/
 
+@media screen and (min-width: 450px) {
+
+    .player-overlay .fa-play{
+        color: white;
+        padding: 20px 25px;
+        background-color: transparent;
+        border: 8px solid white;
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    
+}
+
 @media screen and (min-width: 576px){
 
     .sidebar{
@@ -372,7 +447,6 @@ End Of Spotify Bottom
         display: block;
     }
     
-
 }
 
 @media screen and (min-width: 790px){
