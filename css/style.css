@@ -47,11 +47,6 @@ a{
     margin-left: 30px;
 }
 
-.player-row{
-    display: flex;
-}
-
-
 img{
    max-width: 100%;
 }
@@ -65,6 +60,18 @@ img{
 }
 
 /* Flex utilites */
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
 
 .space-around{
     justify-content: space-around;
@@ -294,6 +301,7 @@ Spotify Top
    vertical-align: middle;
    height: 25px;
    max-width: 100%;
+   margin-right: 5px;
 }
 
 /* Sidebar Only icon list */
@@ -313,15 +321,12 @@ Spotify Top
 
 .icon-and-text-container{
     display: none;
-    
-    
 }
 
 .icon-and-text-ul{
     list-style-type: none;
     padding: 10px 0px;
     margin-left: 20px;
-
 }
 
 .icon-and-text-ul li{
@@ -361,11 +366,63 @@ End Of Spotify Top
 Spotify Bottom  
 */
 
-.spotify-bottom .container-bot{
+.spotify-bottom{
     height: 100px;
     background-color: #282828;
 }
+
+.player{
+    height: 100%;
+}
+
+.container-bot{
+    height: 100%;
+}
+
 /* Player  */
+
+.player-row{
+    display: flex;
+    height: 100%;
+}
+
+.player-song-img-container{
+    max-width: 100%;
+    margin: 0px 8px;
+}
+
+.player-song-img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+.player-song-name-container{
+    
+}
+
+.player-song-name-container h5{
+    color: white;
+    font-size: 9px;
+
+}
+
+.player-song-name-container h6{
+    color: #717171;
+    font-size: 8px;
+
+}
+
+.player-icon-list{
+    list-style-type: none;
+    margin-left: 5px;
+    
+}
+
+.fa-heart,
+.fa-folder{
+    color: white;
+}
 
 /* 
 End Of Spotify Bottom  
