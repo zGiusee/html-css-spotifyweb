@@ -59,6 +59,10 @@ img{
     overflow-y: auto;
 }
 
+.justify-end{
+    justify-content: flex-end;
+}
+
 /* Flex utilites */
 
 .d-flex{
@@ -282,9 +286,24 @@ Spotify Top
 
 /* Sidebar Logo */
 
+.logo{
+    width: 150px;
+}
+
 .logo-small{
     width: 20px;
     height: 20px;
+}
+
+.user-logo{
+    background-color: #717171;
+    border-radius: 50%;
+}
+
+.arrow-small{
+    color: white;
+    border: solid 1px white;
+    border-radius: 50%;
 }
 
 /* Sidebar  */
@@ -295,6 +314,19 @@ Spotify Top
     width: 50px;
     background-color: black;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-sidebar{
+    width: 100%;
+
+}
+
+.bot-sidebar{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
 }
 
 .icon{
@@ -306,15 +338,20 @@ Spotify Top
 
 /* Sidebar Only icon list */
 
-.only-icon-ul{
+.only-icon-ul-top,
+.only-icon-ul-bot{
     text-align: center;
     padding: 10px 0px;
     list-style-type: none;
     
 }
 
-.only-icon-ul li{
+.only-icon-ul-top li{
     padding: 10px 0px;
+}
+
+.only-icon-ul-bot li{
+    margin: 15px 0px 0px 0px;
 }
 
 /* Sidebar icon and text list */
@@ -388,6 +425,8 @@ Spotify Bottom
 
 /* LEFT PLAYER SIDE */
 
+
+
 .player-song-img-container{
     width: 50%;
     padding: 0px 8px;
@@ -396,11 +435,6 @@ Spotify Bottom
 .player-song-img{
     width: 100%;
     vertical-align: middle;
-}
-
-
-.player-song-name-container{
-    
 }
 
 .player-song-name-container h5{
@@ -616,7 +650,7 @@ End Of Spotify Bottom
         width: calc(100vw - 250px);
     }
 
-    .only-icon-ul{
+    .only-icon-ul-top{
         display: none;
     }
 
@@ -749,5 +783,12 @@ End Of Spotify Bottom
         margin: 5px 0px;
         padding: 10px;
     }
-    
+
+    .col-25 .col-left{
+        justify-self: flex-start;
+    }
+
+    .col-25 .col-right{
+        justify-self: flex-end;
+    }
 }

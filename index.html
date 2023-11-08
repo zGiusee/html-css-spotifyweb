@@ -19,38 +19,51 @@
         <div class="spotify-top">
             <div class="container-top">
                 <div class="sidebar overflow-y">
-                    
-                    <ul class="only-icon-ul">
-                        <li><img class="logo-small" src="./img/logo-small.svg" alt=""></li>
-                        <li><img src="./img/home.svg" alt="Home"></li>
-                        <li><img src="./img/search.svg" alt="Search"></li>
-                        <li><img src="./img/libreria.svg" alt="Libraries"></li>
-                    </ul>
-    
-                    <div class="icon-and-text-container">
-                        <ul class="icon-and-text-ul">
-                            <li><img src="./img/logo.svg" alt="Spotify Logo"></li>
-                            <li><img class="icon" src="./img/home.svg" alt="Home"> Home</li>
-                            <li><img class="icon" src="./img/search.svg" alt="Search"> Cerca</li>
-                            <li><img class="icon" src="./img/libreria.svg" alt="Libraries"> La tua libreria</li>
+
+                    <div class="top-sidebar">
+                        <ul class="only-icon-ul-top">
+                            <li><img class="logo-small" src="./img/logo-small.svg" alt="Logo small"></li>
+                            <li><img class="logo-small" src="./img/home.svg" alt="Home"></li>
+                            <li><img class="logo-small" src="./img/search.svg" alt="Search"></li>
+                            <li><img class="logo-small" src="./img/libreria.svg" alt="Libraries"></li>
                         </ul>
-                        <div class="playlist-section">
-                            <h3 class="white padding-y-15">PLAYLIST</h3>
-                            <p>
-                                <button class="new-pl-button" type="button"><i class="fa-solid fa-plus"></i></button>
-                                <span class="light-grey"><strong>Crea Playlist</strong></span>
-                            </p> 
-                            <ul class="pl-list">
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
+        
+                        <div class="icon-and-text-container">
+                            <ul class="icon-and-text-ul">
+                                <li><img class="logo" src="./img/logo.svg" alt="Spotify Logo"></li>
+                                <li><img class="icon" src="./img/home.svg" alt="Home"> Home</li>
+                                <li><img class="icon" src="./img/search.svg" alt="Search"> Cerca</li>
+                                <li><img class="icon" src="./img/libreria.svg" alt="Libraries"> La tua libreria</li>
                             </ul>
+                            <div class="playlist-section">
+                                <h3 class="white padding-y-15">PLAYLIST</h3>
+                                <p>
+                                    <button class="new-pl-button" type="button"><i class="fa-solid fa-plus"></i></button>
+                                    <span class="light-grey"><strong>Crea Playlist</strong></span>
+                                </p> 
+                                <ul class="pl-list">
+                                    <li>Nome Playlist</li>
+                                    <li>Nome Playlist</li>
+                                    <li>Nome Playlist</li>
+                                    <li>Nome Playlist</li>
+                                    <li>Nome Playlist</li>
+                                    <li>Nome Playlist</li>
+                                    <li>Nome Playlist</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="bot-sidebar">
+                        <ul class="only-icon-ul-bot">
+                            <li class="arrow-small"><i class="fa-solid fa-arrow-down fa-2xs"></i></li>
+                            <li><img class="logo-small user-logo" src="./img/profile.svg" alt=""></li>
+                        </ul>
+                        <div >
+
+                        </div>
+                    </div>
+
                 </div>
                 <div class="spotify-main">
                     <header class="spotify-main-header">
@@ -256,6 +269,8 @@
             <div class="container-bot">        
                 <div class="player">
                     <div class="player-row">
+
+
                         <div class="col-25 d-flex align-center justify-center">
                             <div class="player-song-img-container">
                                 <img class="player-song-img" src="./img/player_left.jpg" alt="">
@@ -272,6 +287,8 @@
                             </div>
 
                         </div>
+
+
                         <div class="col-50-player d-flex justify-center align-center f-wrap">                           
                             <div class="middle-player-icon-list-container">
                                 <ul class="middle-player-icon-list">
@@ -288,7 +305,9 @@
                                 <span class="song-time-text">4.35</span>
                             </div>
                         </div>
-                        <div class="col-25 d-flex justify-center align-center">
+
+
+                        <div class="col-25 d-flex justify-center align-center flex-end">
                             <div>
                                 <ul class="right-player-icon-list">
                                     <li><a href=""><i class="fa-solid fa-tv fa-2xs"></i></a></li>
@@ -302,6 +321,8 @@
                                 <input id="volume-bar" type="range" min="0" max="100" value="50">
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
