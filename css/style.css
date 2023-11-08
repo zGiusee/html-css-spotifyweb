@@ -298,12 +298,14 @@ Spotify Top
 .user-logo{
     background-color: #717171;
     border-radius: 50%;
+    vertical-align: middle;
 }
 
 .arrow-small{
     color: white;
     border: solid 1px white;
     border-radius: 50%;
+
 }
 
 /* Sidebar  */
@@ -319,7 +321,6 @@ Spotify Top
 
 .top-sidebar{
     width: 100%;
-
 }
 
 .bot-sidebar{
@@ -338,6 +339,8 @@ Spotify Top
 
 /* Sidebar Only icon list */
 
+/* TOP */
+
 .only-icon-ul-top,
 .only-icon-ul-bot{
     text-align: center;
@@ -348,29 +351,6 @@ Spotify Top
 
 .only-icon-ul-top li{
     padding: 10px 0px;
-}
-
-.only-icon-ul-bot li{
-    margin: 15px 0px 0px 0px;
-}
-
-/* Sidebar icon and text list */
-
-.icon-and-text-container{
-    display: none;
-}
-
-.icon-and-text-ul{
-    list-style-type: none;
-    padding: 10px 0px;
-    margin-left: 20px;
-}
-
-.icon-and-text-ul li{
-    color: #fff;
-    font-weight: bold;
-    padding: 10px 0px;
-    font-size: 13px;
 }
 
 /* Sidebar playlist list */
@@ -393,6 +373,88 @@ Spotify Top
     font-size: 13px;
 }
 
+.new-pl-button{
+    padding: 13px;
+    background-color: #717171;
+    border: transparent;
+    margin-right: 10px;
+}
+
+/* BOT */
+
+.only-icon-ul-bot li{
+    margin: 15px 0px 0px 0px;
+}
+
+/* Sidebar icon and text list */
+
+/* TOP */
+
+.icon-and-text-container{
+    display: none;
+}
+
+.icon-and-text-ul{
+    list-style-type: none;
+    padding: 10px 0px;
+    margin-left: 20px;
+}
+
+.icon-and-text-ul li{
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+/* BOT */
+
+.icon-and-text-ul-bot-container{
+    width: 100%;
+}
+
+.sidebar-download-text{
+    color: #717171;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.user-text{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.sidebar-hr{
+    color: #717171;
+    width: 80%;
+}
+
+.download-arrow{
+    color: #717171;
+    padding: 9px 6px;
+    border: 1px solid #717171;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.icon-and-text-ul-bot-container{
+    display: none;
+    margin-left: 20px;
+}
+
+.icon-and-text-ul-bot{
+    padding: 10px 0px;
+}
+
+.icon-and-text-ul-bot li{
+    margin: 10px 0px 10px 0px;
+}
+
 
 /* 
 End Of Spotify Top  
@@ -406,6 +468,9 @@ Spotify Bottom
 .spotify-bottom{
     height: 100px;
     background-color: #282828;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 .player{
@@ -652,6 +717,18 @@ End Of Spotify Bottom
 
     .only-icon-ul-top{
         display: none;
+    }
+    
+    .only-icon-ul-bot{
+        display: none;
+    }
+
+    .bot-sidebar{
+        justify-content: flex-start;
+    }
+
+    .icon-and-text-ul-bot-container{
+        display: block;
     }
 
     .icon-and-text-container{
