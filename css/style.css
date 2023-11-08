@@ -389,12 +389,12 @@ Spotify Bottom
 /* LEFT PLAYER SIDE */
 
 .player-song-img-container{
-    max-width: 100%;
-    margin: 0px 8px;
+    width: 50%;
+    padding: 0px 8px;
 }
 
 .player-song-img{
-    max-width: 100%;
+    width: 100%;
     vertical-align: middle;
 }
 
@@ -606,7 +606,7 @@ End Of Spotify Bottom
    .fa-house,
    .fa-bars{
     margin-right: 8px;
-}
+   }
     
     .spotify-main-header{
         width: calc(100vw - 250px);
@@ -624,6 +624,33 @@ End Of Spotify Bottom
         display: block;
     }
     
+    /* PLAYER SECTION */
+
+    .middle-player-icon-list li{
+        padding: 0px 15px;
+    }
+
+    .player-song-name-container{
+        margin-right: 5px;
+    }
+
+    .player-song-name-container h5{
+        color: white;
+        font-size: 13px;
+    
+    }
+    
+    .player-song-name-container h6{
+        color: #717171;
+        font-size: 11px;
+    
+    }
+
+    .player-song-img-container{
+        max-width: 40%;
+        
+    }
+
 }
 
 @media screen and (min-width: 790px){
@@ -648,6 +675,14 @@ End Of Spotify Bottom
         width: 60%;
     }
     
+    .song-time-bar-container{
+        width: 80%;
+    }
+
+    .song-time-bar-container input[type="range"] {
+        width: 100%;
+        background-color: transparent;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -671,6 +706,15 @@ End Of Spotify Bottom
     .popular-artist-section .row{
         width: 60%;
     }
+
+    .middle-player-icon-list li{
+        padding: 0px 20px;
+    }
+
+    .player-song-img-container{
+        max-width: 33%;
+        padding: 0px 8px;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -693,6 +737,17 @@ End Of Spotify Bottom
     .spotify-main
     .popular-artist-section .row{
         width: 45%;
+    }
+
+    .player-song-img-container{
+        max-width: 33%;
+        padding: 0px 8px;
+        margin: 15px 0px;
+    }
+
+    .player-song-img-container img{
+        margin: 5px 0px;
+        padding: 10px;
     }
     
 }
