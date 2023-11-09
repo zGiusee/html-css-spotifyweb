@@ -288,6 +288,10 @@ SPOTIFY MAIN
     color: white;
 }
 
+.nav-active{
+    border-bottom: 3px solid rgb(16, 184, 16);   
+}
+
 /* END FO SPOTIFY NAVIGATION LIST */
 
 
