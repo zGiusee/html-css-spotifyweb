@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Doc Title -->
     <title>html-css-spotifyweb</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <!-- Main style -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -41,15 +42,17 @@
                                     <button class="new-pl-button" type="button"><i class="fa-solid fa-xl fa-plus"></i></button>
                                     <span class="light-grey"><strong>Crea Playlist</strong></span>
                                 </p> 
-                                <ul class="pl-list">
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                </ul>
+                                <div class="play-lists-container">
+                                    <ul class="pl-list">
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -268,14 +271,18 @@
         </div>
     </main>
 
+    
+
     <footer>
         <div class="spotify-bottom">
             <div class="container-bot">        
                 <div class="player">
                     <div class="player-row">
 
-
-                        <div class="col-25 d-flex align-center justify-center">
+                        <!-- 
+                        Player section
+                        -->
+                        <div class="col-25 d-flex left-player-section">
                             <div class="player-song-img-container">
                                 <img class="player-song-img" src="./img/player_left.jpg" alt="">
                             </div>
@@ -289,7 +296,6 @@
                                     <li><a href=""><i class="fa-regular fa-xs fa-folder"></i></a></li>
                                 </ul>
                             </div>
-
                         </div>
 
 
@@ -325,7 +331,9 @@
                                 <input id="volume-bar" type="range" min="0" max="100" value="50">
                             </div>
                         </div>
-
+                        <!-- 
+                        End Player section
+                        -->
 
                     </div>
                 </div>
