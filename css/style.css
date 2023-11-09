@@ -974,12 +974,22 @@ End Of Spotify Bottom
 
     .spotify-main
     .created-for-you-section .row{
-        width: 45%;
+        width: 50%;
+    }
+
+    .spotify-main
+    .created-for-you-section .col-50{
+        width: calc(100% / 2 - 100px);
     }
 
     .spotify-main
     .popular-artist-section .row{
-        width: 45%;
+        width: 50%;
+    }
+
+    .spotify-main
+    .popular-artist-section .col-50{
+        width: calc(100% / 2 - 100px);
     }
 
     .col-25 .col-left{
