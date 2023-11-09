@@ -339,8 +339,6 @@ Spotify Top
 
 /* Sidebar Only icon list */
 
-/* TOP */
-
 .only-icon-ul-top,
 .only-icon-ul-bot{
     text-align: center;
@@ -367,6 +365,7 @@ Spotify Top
 }
 
 .pl-list li{
+    cursor: pointer;
     color:#717171;
     padding: 5px 0px;
     font-weight: bold;
@@ -374,10 +373,25 @@ Spotify Top
 }
 
 .new-pl-button{
+    cursor: pointer;
     padding: 13px;
     background-color: #717171;
     border: transparent;
     margin-right: 10px;
+}
+
+/* Playlist hover */
+
+.pl-list li:hover{
+    color: #fff;
+}
+
+.pl-button-container:hover .new-pl-button{
+    background-color: white;
+}
+
+.pl-button-container:hover span{
+    color: white;
 }
 
 /* BOT */
@@ -401,11 +415,17 @@ Spotify Top
 }
 
 .icon-and-text-ul li{
-    color: #fff;
+    cursor: pointer;
+    color: #717171;
     font-weight: bold;
     padding: 10px 0px;
     font-size: 13px;
 }
+
+.icon-and-text-ul li:hover {
+    color: #fff;
+}
+
 
 /* BOT */
 
@@ -442,6 +462,7 @@ Spotify Top
     vertical-align: middle;
 }
 
+
 .icon-and-text-ul-bot-container{
     display: none;
     margin-left: 20px;
@@ -452,9 +473,20 @@ Spotify Top
 }
 
 .icon-and-text-ul-bot li{
+    cursor: pointer;
     margin: 10px 0px 10px 0px;
 }
 
+/* Hover */
+
+.download-li:hover span{
+    color: white;
+}
+
+.download-li:hover i{
+    color: white;
+    border-color: white;
+}
 
 /* 
 End Of Spotify Top  
