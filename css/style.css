@@ -171,6 +171,10 @@ Spotify Top
     margin-top: 15px;
 }
 
+.header-button-container:hover{
+    scale: 1.1;
+    margin-right: 50px;
+}
 
 .spotify-main-content{
     margin-top: 75px; 
@@ -887,6 +891,12 @@ End Of Spotify Bottom
    .left-player-section{
     justify-content: flex-start;
    }
+
+   .header-button-container:hover{
+    scale: 1.1;
+    margin-right: 120px;
+}
+
 
 }
 
