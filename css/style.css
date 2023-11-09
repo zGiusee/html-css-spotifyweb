@@ -138,7 +138,7 @@ img{
 ********************/
 
 /* 
-Spotify Top  
+SPOTIFY TOP
 */
 
 .spotify-top .container-top{
@@ -146,7 +146,9 @@ Spotify Top
     height: calc(100vh - 100px);
 }
 
-/* Spotify Main */
+/* 
+SPOTIFY MAIN
+*/
 
 .spotify-main{
     height: 100%;
@@ -253,7 +255,7 @@ Spotify Top
 }
 
 
-/* Spotify navigation list */
+/* SPOTIFY NAVIGATION LIST */
 
 .navigation-list{
     display: block;
@@ -286,9 +288,11 @@ Spotify Top
     color: white;
 }
 
+/* END FO SPOTIFY NAVIGATION LIST */
 
 
-/* Sidebar Logo */
+
+/* SIDEBAR LOGO */
 
 .logo{
     width: 150px;
@@ -312,7 +316,11 @@ Spotify Top
 
 }
 
-/* Sidebar  */
+
+/* 
+SIDEBAR
+ */
+
 
 .sidebar{
     display: flex;
@@ -404,7 +412,11 @@ Spotify Top
     margin: 15px 0px 0px 0px;
 }
 
-/* Sidebar icon and text list */
+
+/* 
+SIDEBAR ICON AND TEXT LIST
+ */
+
 
 /* TOP */
 
@@ -493,12 +505,12 @@ Spotify Top
 }
 
 /* 
-End Of Spotify Top  
+END OF SPOTIFY TOP
 */
 
 
 /* 
-Spotify Bottom  
+SPOTIFY BOTTOM
 */
 
 .spotify-bottom{
@@ -524,7 +536,9 @@ Spotify Bottom
     height: 100%;
 }
 
-/* LEFT PLAYER SIDE */
+/* 
+LEFT PLAYER SIDE
+ */
 
 .left-player-section{
     align-items: center;
@@ -554,7 +568,14 @@ Spotify Bottom
 
 }
 
-/* MIDDLE SIDE PLAYER */
+/* 
+END OF LEFT PLAYER SIDE
+ */
+
+
+/* 
+MIDDLE SIDE PLAYER
+ */
 
 .middle-player-icon-list{
     list-style-type: none;
@@ -623,8 +644,16 @@ Spotify Bottom
     
 }
 
-/* LEFT PLAYER SIDE */
+/* 
+END OF MIDDLE SIDE PLAYER
+ */
 
+
+/* 
+RIGHT PLAYER SIDE
+ */
+
+ 
 /* VOLUME BAR */
 
 .volume-bar-container input[type="range"] {
@@ -664,22 +693,26 @@ Spotify Bottom
 
 }
 
-  
-
 #volume-bar{
     margin-right: 10px;
     
 }
 
-/* PLAYER LIST SETTING */
+
+/* 
+END OF RIGHT PLAYER SIDE
+ */
+
+
+/* 
+PLAYER LIST SETTING
+ */
 
 .left-player-icon-list,
 .right-player-icon-list{
     list-style-type: none;
     margin-left: 5px;
 }
-
-
 
 /* ICONS */
 
