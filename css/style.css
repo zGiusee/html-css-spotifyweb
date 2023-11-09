@@ -568,13 +568,6 @@ Spotify Bottom
     
 }
 
-.middle-player-icon-list .fa-play{
-    padding: 13px 8px;
-    background-color: transparent;
-    border: solid 2px white;
-    border-radius: 50%;
-    
-}
 
 .song-time-text{
     color: white;
@@ -690,22 +683,53 @@ Spotify Bottom
 
 /* ICONS */
 
+.middle-player-icon-list .fa-play{
+    padding: 13px 8px;
+    background-color: transparent;
+    border: solid 2px #838181;
+    border-radius: 50%;
+}
+
 .middle-player-icon-list i{
-    color: white;
+    color: #838181;
 }
 
 .right-player-icon-list i{
-    color: white;
+    color: #838181;
 }
 
 .left-player-icon-list i{
-    color: white;
+    color: #838181;
 }
 
 .fa-volume-up{
     color: white;
     margin-left: 10px;
     vertical-align: middle;
+}
+
+/* ICONS Hover */
+
+.middle-player-icon-list i:hover{
+    color: #fff;
+}
+
+.right-player-icon-list i:hover{
+    color: #fff;
+}
+
+.left-player-icon-list i:hover{
+    color: #fff;
+}
+
+.middle-player-icon-list .fa-play:hover{
+    border: solid 2px #fff;
+}
+
+/* Player img text Hover */
+
+.player-song-name-container h6:hover{
+    color: white;
 }
 
 /* 
